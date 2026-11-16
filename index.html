@@ -3,26 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>راوي التاريخ | أخبار وقصص تاريخية وموشن جرافيك</title>
-  <meta name="description" content="منصة راوي التاريخ: أخبار الآثار، قصص الحضارات، أحداث في مثل هذا اليوم، وشروحات الموشن جرافيك التاريخية التفاعلية." />
-  <meta name="keywords" content="راوي التاريخ, تاريخ, قصص تاريخية, في مثل هذا اليوم, موشن جرافيك تاريخي, آثار, حضارات" />
+  <title>راوي التاريخ | أخبار وقصص تاريخية ووثائقيات تفاعلية</title>
+  <meta name="description" content="منصة راوي التاريخ: سرد بصري فاخر للتاريخ، قصص الحضارات، فيديوهات تاريخية قصيرة، خرائط تفاعلية، وأحداث في مثل هذا اليوم." />
+  <meta name="keywords" content="راوي التاريخ, معركة القادسية, قصص تاريخية, وثائقيات تاريخية, في مثل هذا اليوم" />
   <meta property="og:title" content="راوي التاريخ | أخبار وقصص من ذاكرة الزمن" />
-  <meta property="og:description" content="اكتشف التاريخ بصياغة بصرية فاخرة وخرائط وموشن جرافيك تفاعلي." />
+  <meta property="og:description" content="اكتشف التاريخ بصياغة بصرية فاخرة وخرائط وفيديوهات تفاعلية." />
   <meta property="og:type" content="website" />
 
-  <!-- الخطوط العربية الأصيلة -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;600;700;800&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet" />
 
-  <!-- البيانات المنظمة لمحركات البحث SEO JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "راوي التاريخ",
     "inLanguage": "ar",
-    "description": "منصة شاملة للأخبار والقصص التاريخية والموشن جرافيك التفاعلي"
+    "description": "منصة شاملة للأخبار والقصص التاريخية والوثائقيات التفاعلية"
   }
   </script>
 
@@ -33,271 +31,319 @@
       --bg-secondary: #EDE4D3;
       --bg-card: #EFE7D8;
       --bg-elevated: #FAF6EE;
-      --text-primary: #2B2118;
-      --text-secondary: #685747;
-      --accent: #9E7B3B;
-      --accent-hover: #7D5E29;
-      --accent-soft: rgba(158, 123, 59, 0.14);
-      --seal-red: #7A2E2E;
-      --border-subtle: rgba(104, 87, 71, 0.22);
-      --shadow-card: 0 12px 30px -12px rgba(43, 33, 24, 0.14);
-      --nav-glass: rgba(246, 241, 231, 0.88);
-      --paper-opacity: 0.04;
-      --hero-gradient: radial-gradient(circle at 20% 30%, rgba(158, 123, 59, 0.15), transparent 60%);
+      --text-primary: #261C14;
+      --text-secondary: #5C4C3D;
+      --accent: #9A7432;
+      --accent-hover: #7B5B22;
+      --accent-soft: rgba(154, 116, 50, 0.13);
+      --border-subtle: rgba(104, 87, 71, 0.18);
+      --shadow-card: 0 14px 34px -14px rgba(38, 28, 20, 0.16);
+      --shadow-video: 0 24px 55px -16px rgba(38, 28, 20, 0.35);
+      --nav-glass: rgba(246, 241, 231, 0.9);
+      --paper-opacity: 0.038;
+      --hero-gradient: radial-gradient(circle at 20% 25%, rgba(154, 116, 50, 0.15), transparent 62%);
     }
 
     [data-theme="dark"] {
       --bg-primary: #11100F;
-      --bg-secondary: #181614;
-      --bg-card: #1E1C19;
+      --bg-secondary: #171513;
+      --bg-card: #1D1B18;
       --bg-elevated: #25221E;
-      --text-primary: #ECE5D5;
-      --text-secondary: #A59B8C;
-      --accent: #C5A059;
-      --accent-hover: #DCBA73;
-      --accent-soft: rgba(197, 160, 89, 0.15);
-      --seal-red: #B24A4A;
-      --border-subtle: rgba(197, 160, 89, 0.2);
-      --shadow-card: 0 16px 36px -12px rgba(0, 0, 0, 0.55);
-      --nav-glass: rgba(17, 16, 15, 0.88);
+      --text-primary: #EFE8D8;
+      --text-secondary: #B2A898;
+      --accent: #CCA65E;
+      --accent-hover: #DFBE7B;
+      --accent-soft: rgba(204, 166, 94, 0.15);
+      --border-subtle: rgba(204, 166, 94, 0.18);
+      --shadow-card: 0 18px 40px -12px rgba(0, 0, 0, 0.6);
+      --shadow-video: 0 26px 60px -14px rgba(0, 0, 0, 0.75);
+      --nav-glass: rgba(17, 16, 15, 0.9);
       --paper-opacity: 0.018;
-      --hero-gradient: radial-gradient(circle at 20% 30%, rgba(197, 160, 89, 0.12), transparent 60%);
+      --hero-gradient: radial-gradient(circle at 20% 25%, rgba(204, 166, 94, 0.12), transparent 62%);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      background-color: var(--bg-primary);
-      color: var(--text-primary);
+      background-color: var(--bg-primary); color: var(--text-primary);
       font-family: 'Noto Naskh Arabic', 'Cairo', system-ui, sans-serif;
-      line-height: 1.85;
-      transition: background-color 0.35s ease, color 0.35s ease;
-      overflow-x: hidden;
+      font-size: clamp(1rem, 1.1vw, 1.08rem); line-height: 1.95;
+      transition: background-color 0.4s ease, color 0.4s ease; overflow-x: clip;
     }
 
     .paper-texture {
-      position: fixed; inset: 0; pointer-events: none; z-index: 90;
-      opacity: var(--paper-opacity);
+      position: fixed; inset: 0; pointer-events: none; z-index: 90; opacity: var(--paper-opacity);
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
 
-    h1, h2, h3, h4, .font-historical { font-family: 'Amiri', serif; line-height: 1.35; }
+    h1, h2, h3, h4, .font-historical { font-family: 'Amiri', serif; line-height: 1.38; }
     .font-ui { font-family: 'Cairo', sans-serif; }
     a { color: inherit; text-decoration: none; }
     button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
-    .container { width: min(1240px, 92%); margin-inline: auto; }
+    .container { width: min(1220px, 92%); margin-inline: auto; }
 
+    /* الشريط العلوي */
     .navbar {
-      position: sticky; top: 0; z-index: 50;
-      background: var(--nav-glass);
-      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      position: sticky; top: 0; z-index: 50; background: var(--nav-glass);
+      backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid var(--border-subtle);
-      transition: background-color 0.35s ease;
     }
     .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 1rem; }
     .brand { display: flex; align-items: center; gap: 0.75rem; }
     .brand-seal {
-      width: 42px; height: 42px; border-radius: 50%;
-      border: 1.5px solid var(--accent); display: grid; place-items: center;
-      background: var(--accent-soft); color: var(--accent);
-      font-family: 'Amiri', serif; font-weight: 700; font-size: 1.3rem;
+      width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--accent);
+      display: grid; place-items: center; background: var(--accent-soft); color: var(--accent);
+      font-family: 'Amiri', serif; font-weight: 700; font-size: 1.35rem;
     }
-    .brand-text strong { display: block; font-family: 'Amiri', serif; font-size: 1.4rem; line-height: 1.1; }
+    .brand-text strong { display: block; font-family: 'Amiri', serif; font-size: 1.45rem; line-height: 1.1; }
     .brand-text span { font-family: 'Cairo', sans-serif; font-size: 0.72rem; color: var(--text-secondary); }
-
-    .nav-links { display: flex; align-items: center; gap: 1.5rem; font-family: 'Cairo', sans-serif; font-size: 0.92rem; font-weight: 600; }
+    .nav-links { display: flex; align-items: center; gap: 1.35rem; font-family: 'Cairo', sans-serif; font-size: 0.9rem; font-weight: 600; }
     .nav-links a { padding-block: 4px; color: var(--text-secondary); transition: color 0.25s; }
     .nav-links a:hover { color: var(--accent); }
     .nav-actions { display: flex; align-items: center; gap: 0.65rem; }
 
     .search-box { position: relative; display: flex; align-items: center; }
     .search-input {
-      background: var(--bg-card); border: 1px solid var(--border-subtle);
-      color: var(--text-primary); padding: 0.42rem 2.1rem 0.42rem 0.85rem;
-      border-radius: 999px; font-family: 'Cairo', sans-serif; font-size: 0.82rem;
-      width: 175px; transition: width 0.3s, border-color 0.3s;
+      background: var(--bg-card); border: 1px solid var(--border-subtle); color: var(--text-primary);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem; border-radius: 999px; font-family: 'Cairo', sans-serif; font-size: 0.82rem;
+      width: 170px; transition: width 0.3s, border-color 0.3s;
     }
-    .search-input:focus { outline: none; width: 225px; border-color: var(--accent); }
+    .search-input:focus { outline: none; width: 220px; border-color: var(--accent); }
     .search-icon { position: absolute; right: 11px; font-size: 0.85rem; color: var(--text-secondary); pointer-events: none; }
 
     .theme-btn {
-      display: inline-flex; align-items: center; gap: 0.45rem;
-      padding: 0.45rem 0.95rem; border-radius: 999px;
-      background: var(--bg-card); border: 1px solid var(--border-subtle);
-      font-family: 'Cairo', sans-serif; font-size: 0.8rem; font-weight: 600;
-      transition: border-color 0.25s, transform 0.2s;
+      display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.45rem 0.95rem;
+      border-radius: 999px; background: var(--bg-card); border: 1px solid var(--border-subtle);
+      font-family: 'Cairo', sans-serif; font-size: 0.8rem; font-weight: 600; transition: border-color 0.25s, transform 0.2s;
     }
     .theme-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
     .mobile-menu-btn { display: none; font-size: 1.4rem; padding: 0.3rem 0.6rem; border: 1px solid var(--border-subtle); border-radius: 8px; }
 
-    .hero { position: relative; padding: 4.5rem 0 3.5rem; background-image: var(--hero-gradient); border-bottom: 1px solid var(--border-subtle); overflow: hidden; }
+    /* الهيرو */
+    .hero { position: relative; padding: 4.5rem 0 3.5rem; background-image: var(--hero-gradient); overflow: hidden; }
     .hero-grid { display: grid; grid-template-columns: 1.25fr 0.95fr; gap: 2.5rem; align-items: center; }
     .badge-seal {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.3rem 0.9rem; border-radius: 999px;
+      display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0.9rem; border-radius: 999px;
       background: var(--accent-soft); border: 1px solid var(--accent); color: var(--accent);
       font-family: 'Cairo', sans-serif; font-size: 0.78rem; font-weight: 700; margin-bottom: 1.1rem;
     }
-    .hero h1 { font-size: clamp(2.1rem, 4.2vw, 3.4rem); font-weight: 700; margin-bottom: 1.1rem; }
-    .hero p { font-size: 1.08rem; color: var(--text-secondary); max-width: 58ch; margin-bottom: 1.8rem; }
+    .hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.45rem); font-weight: 700; margin-bottom: 1.1rem; }
+    .hero p { font-size: 1.1rem; color: var(--text-secondary); max-width: 56ch; margin-bottom: 1.8rem; }
     .hero-cta { display: flex; flex-wrap: wrap; gap: 0.9rem; }
-
     .btn-primary {
-      display: inline-flex; align-items: center; gap: 0.55rem;
-      background: var(--accent); color: #fff; padding: 0.75rem 1.55rem;
-      border-radius: 10px; font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 0.92rem;
+      display: inline-flex; align-items: center; gap: 0.55rem; background: var(--accent); color: #fff;
+      padding: 0.78rem 1.6rem; border-radius: 10px; font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 0.92rem;
       transition: background 0.25s, transform 0.2s;
     }
     .btn-primary:hover { background: var(--accent-hover); transform: translateY(-2px); }
-
     .btn-outline {
-      display: inline-flex; align-items: center; gap: 0.55rem;
-      background: var(--bg-card); border: 1px solid var(--border-subtle);
-      color: var(--text-primary); padding: 0.75rem 1.4rem;
-      border-radius: 10px; font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 0.92rem;
+      display: inline-flex; align-items: center; gap: 0.55rem; background: var(--bg-card); border: 1px solid var(--border-subtle);
+      color: var(--text-primary); padding: 0.78rem 1.4rem; border-radius: 10px; font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 0.92rem;
       transition: border-color 0.25s, transform 0.2s;
     }
     .btn-outline:hover { border-color: var(--accent); transform: translateY(-2px); }
 
-    .hero-visual {
-      background: var(--bg-card); border: 1px solid var(--border-subtle);
-      border-radius: 18px; padding: 1.5rem; box-shadow: var(--shadow-card);
-    }
+    .hero-visual { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 18px; padding: 1.4rem; box-shadow: var(--shadow-card); }
     .astrolabe-wrap {
       aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden;
-      background: radial-gradient(circle at center, #2a2118 0%, #120e0a 100%);
-      display: grid; place-items: center; border: 1px solid rgba(197, 160, 89, 0.35);
+      background: radial-gradient(circle at center, #2a2118 0%, #120e0a 100%); display: grid; place-items: center;
     }
     .astrolabe-ring { animation: slowSpin 48s linear infinite; transform-origin: center; }
     @keyframes slowSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    .hero-visual-caption { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-family: 'Cairo', sans-serif; font-size: 0.82rem; color: var(--text-secondary); }
+    .hero-visual-caption { display: flex; justify-content: space-between; align-items: center; margin-top: 0.95rem; font-family: 'Cairo', sans-serif; font-size: 0.82rem; color: var(--text-secondary); }
 
+    /* قسم عرض الفيديو العمودي المدمج بدون حواف (Qadisiyyah Reel Showcase) */
+    .reel-section {
+      padding: 4.5rem 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .reel-grid {
+      display: grid;
+      grid-template-columns: minmax(270px, 340px) 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .vertical-video-frame {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      border-radius: 20px;
+      overflow: hidden;
+      border: none;
+      margin: 0 auto;
+      background: #0E0C0A;
+      box-shadow: var(--shadow-video);
+    }
+    .vertical-video-frame video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: none;
+      display: block;
+    }
+    .video-fallback-note {
+      display: none;
+      position: absolute;
+      inset: 0;
+      padding: 1.5rem;
+      text-align: center;
+      color: #EAE3D2;
+      background: radial-gradient(circle at center, #2B2016 0%, #120D09 100%);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .days-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.6rem;
+    }
+    .day-step {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-subtle);
+      border-right: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 1rem 1.15rem;
+    }
+    .day-step strong {
+      display: block;
+      font-family: 'Cairo', sans-serif;
+      font-size: 0.88rem;
+      color: var(--accent);
+      margin-bottom: 0.25rem;
+    }
+    .day-step p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    /* الصور بدون حواف المندمجة سينمائياً */
+    .full-bleed-scene {
+      position: relative; width: 100vw; margin-inline: calc(50% - 50vw);
+      padding: 0; border: none; overflow: hidden;
+      min-height: clamp(320px, 48vh, 480px); display: flex; align-items: flex-end;
+    }
+    .full-bleed-img {
+      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+      border: none !important; margin: 0 !important; display: block;
+      transform: scale(1.03); transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .full-bleed-scene.visible .full-bleed-img { transform: scale(1); }
+    .seamless-overlay {
+      position: absolute; inset: 0; pointer-events: none;
+      background:
+        linear-gradient(to bottom, var(--bg-primary) 0%, transparent 28%, transparent 55%, var(--bg-primary) 100%),
+        linear-gradient(to left, rgba(17, 15, 13, 0.6) 0%, transparent 65%);
+    }
+    .full-bleed-caption { position: relative; z-index: 2; width: min(1220px, 92%); margin-inline: auto; padding: 3rem 0 2.5rem; }
+    .full-bleed-card {
+      max-width: 60ch; background: color-mix(in srgb, var(--bg-primary) 80%, transparent);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+      padding: 1.5rem 1.85rem; border-radius: 14px; border-right: 3px solid var(--accent); box-shadow: var(--shadow-card);
+    }
+
+    /* وثائقيات اليوتيوب */
     .section { padding: 4rem 0; }
-    .section-header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem; }
-    .section-title { font-size: clamp(1.65rem, 2.8vw, 2.25rem); }
-    .section-subtitle { font-family: 'Cairo', sans-serif; font-size: 0.88rem; color: var(--text-secondary); margin-top: 0.25rem; }
+    .section-header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 2.2rem; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1rem; }
+    .section-title { font-size: clamp(1.7rem, 2.8vw, 2.3rem); }
+    .section-subtitle { font-family: 'Cairo', sans-serif; font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.25rem; }
 
-    .otd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25rem; }
-    .otd-card {
-      background: var(--bg-card); border: 1px solid var(--border-subtle);
-      border-radius: 14px; padding: 1.35rem; transition: transform 0.25s, border-color 0.25s;
+    .docs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 2rem; }
+    .doc-card { display: flex; flex-direction: column; gap: 1rem; }
+    .youtube-shell {
+      position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden;
+      border: none; margin: 0; background: #141210; box-shadow: var(--shadow-video); cursor: pointer;
     }
+    .youtube-shell img, .youtube-shell iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; margin: 0; object-fit: cover; display: block; }
+    .youtube-shell img { transition: transform 0.6s ease, opacity 0.35s ease; opacity: 0.9; }
+    .youtube-shell:hover img { transform: scale(1.04); opacity: 1; }
+    .yt-gradient { position: absolute; inset: 0; background: linear-gradient(to top, rgba(12, 10, 8, 0.78) 0%, transparent 60%); pointer-events: none; }
+    .play-circle {
+      position: absolute; inset: 0; margin: auto; width: 66px; height: 66px; border-radius: 50%;
+      border: 2px solid var(--accent); background: rgba(17, 15, 13, 0.72); backdrop-filter: blur(4px);
+      display: grid; place-items: center; transition: transform 0.25s, background 0.25s; z-index: 2;
+    }
+    .youtube-shell:hover .play-circle { transform: scale(1.1); background: rgba(154, 116, 50, 0.35); }
+    .yt-badge { position: absolute; bottom: 14px; right: 16px; z-index: 2; background: rgba(17, 15, 13, 0.78); color: #F3EAD8; padding: 0.2rem 0.75rem; border-radius: 999px; font-family: 'Cairo', sans-serif; font-size: 0.74rem; }
+    .doc-meta h3 { font-size: 1.38rem; margin-bottom: 0.35rem; }
+    .doc-meta p { font-size: 0.94rem; color: var(--text-secondary); }
+
+    /* في مثل هذا اليوم + الأرشيف + القصص */
+    .otd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 1.25rem; }
+    .otd-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 1.35rem; transition: transform 0.25s, border-color 0.25s; }
     .otd-card:hover { transform: translateY(-4px); border-color: var(--accent); }
-    .otd-year {
-      display: inline-block; font-family: 'Cairo', sans-serif; font-weight: 800; font-size: 0.95rem;
-      color: var(--accent); background: var(--accent-soft); padding: 0.15rem 0.65rem; border-radius: 6px; margin-bottom: 0.75rem;
-    }
-    .otd-card h3 { font-size: 1.22rem; margin-bottom: 0.5rem; }
+    .otd-year { display: inline-block; font-family: 'Cairo', sans-serif; font-weight: 800; font-size: 0.92rem; color: var(--accent); background: var(--accent-soft); padding: 0.15rem 0.65rem; border-radius: 6px; margin-bottom: 0.75rem; }
+    .otd-card h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     .otd-card p { font-size: 0.92rem; color: var(--text-secondary); }
 
     .era-filters { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.75rem; }
-    .era-pill {
-      padding: 0.45rem 1.15rem; border-radius: 999px; border: 1px solid var(--border-subtle);
-      background: var(--bg-card); font-family: 'Cairo', sans-serif; font-size: 0.85rem; font-weight: 600;
-      color: var(--text-secondary); transition: all 0.25s;
-    }
+    .era-pill { padding: 0.45rem 1.15rem; border-radius: 999px; border: 1px solid var(--border-subtle); background: var(--bg-card); font-family: 'Cairo', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); transition: all 0.25s; }
     .era-pill.active, .era-pill:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
     .timeline-strip { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; margin-bottom: 2.2rem; scrollbar-width: thin; scrollbar-color: var(--accent) transparent; }
-    .timeline-node {
-      min-width: 210px; background: var(--bg-elevated); border: 1px solid var(--border-subtle);
-      border-top: 3px solid var(--accent); border-radius: 10px; padding: 0.95rem; flex-shrink: 0; cursor: pointer; transition: transform 0.2s;
-    }
+    .timeline-node { min-width: 215px; background: var(--bg-elevated); border: 1px solid var(--border-subtle); border-top: 3px solid var(--accent); border-radius: 10px; padding: 0.95rem; flex-shrink: 0; cursor: pointer; transition: transform 0.2s; }
     .timeline-node:hover { transform: translateY(-3px); }
     .timeline-node span { font-family: 'Cairo', sans-serif; font-size: 0.76rem; font-weight: 700; color: var(--accent); }
-    .timeline-node h4 { font-size: 1.05rem; margin-top: 0.25rem; }
+    .timeline-node h4 { font-size: 1.08rem; margin-top: 0.25rem; }
 
     .stories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
-    .story-card {
-      background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px;
-      overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-card);
-      transition: transform 0.3s, border-color 0.3s;
-    }
+    .story-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-card); transition: transform 0.3s, border-color 0.3s; }
     .story-card:hover { transform: translateY(-5px); border-color: var(--accent); }
-    .story-cover { height: 195px; position: relative; overflow: hidden; display: grid; place-items: center; border-bottom: 1px solid var(--border-subtle); }
-    .story-era-tag {
-      position: absolute; top: 12px; right: 12px; background: rgba(17, 16, 15, 0.78);
-      color: #EAE3D2; padding: 0.2rem 0.75rem; border-radius: 999px; font-family: 'Cairo', sans-serif;
-      font-size: 0.74rem; border: 1px solid rgba(197, 160, 89, 0.45);
-    }
-    .story-body { padding: 1.35rem; display: flex; flex-direction: column; flex: 1; }
+    .story-cover { height: 205px; position: relative; overflow: hidden; display: grid; place-items: center; }
+    .story-cover img { width: 100%; height: 100%; object-fit: cover; border: none; margin: 0; display: block; transition: transform 0.6s ease; }
+    .story-card:hover .story-cover img { transform: scale(1.06); }
+    .story-cover-fade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, transparent 40%, var(--bg-card) 100%); }
+    .story-era-tag { position: absolute; top: 12px; right: 12px; z-index: 2; background: rgba(17, 16, 15, 0.78); color: #EAE3D2; padding: 0.2rem 0.75rem; border-radius: 999px; font-family: 'Cairo', sans-serif; font-size: 0.74rem; border: 1px solid rgba(197, 160, 89, 0.45); }
+    .story-body { padding: 1.15rem 1.35rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
     .story-meta { display: flex; justify-content: space-between; font-family: 'Cairo', sans-serif; font-size: 0.76rem; color: var(--text-secondary); margin-bottom: 0.55rem; }
-    .story-body h3 { font-size: 1.35rem; margin-bottom: 0.65rem; }
-    .story-body p { font-size: 0.93rem; color: var(--text-secondary); margin-bottom: 1.2rem; flex: 1; }
+    .story-body h3 { font-size: 1.38rem; margin-bottom: 0.65rem; }
+    .story-body p { font-size: 0.94rem; color: var(--text-secondary); margin-bottom: 1.2rem; flex: 1; }
     .read-more-btn { align-self: flex-start; color: var(--accent); font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 0.88rem; display: inline-flex; align-items: center; gap: 0.4rem; }
-    .read-more-btn:hover { text-decoration: underline; }
 
-    .cinema-section { background: #141210; color: #EAE3D2; padding: 4.5rem 0; border-top: 1px solid rgba(197, 160, 89, 0.25); border-bottom: 1px solid rgba(197, 160, 89, 0.25); }
-    .cinema-section .section-subtitle { color: #A59B8C; }
-    .motion-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 1.5rem; }
-    .motion-card { background: #1E1B18; border: 1px solid rgba(197, 160, 89, 0.22); border-radius: 16px; overflow: hidden; transition: border-color 0.3s; }
-    .motion-card:hover { border-color: #C5A059; }
-    .video-facade { position: relative; aspect-ratio: 16 / 9; background: #0B0A09; overflow: hidden; cursor: pointer; }
-    .play-circle {
-      position: absolute; inset: 0; margin: auto; width: 62px; height: 62px; border-radius: 50%;
-      border: 2px solid #C5A059; background: rgba(17, 16, 15, 0.72); display: grid; place-items: center;
-      transition: transform 0.25s, background 0.25s;
-    }
-    .video-facade:hover .play-circle { transform: scale(1.1); background: rgba(197, 160, 89, 0.25); }
-    .motion-info { padding: 1.2rem; }
-    .motion-info span { font-family: 'Cairo', sans-serif; font-size: 0.74rem; color: #C5A059; }
-    .motion-info h3 { font-size: 1.25rem; margin-top: 0.25rem; margin-bottom: 0.4rem; }
-    .motion-info p { font-size: 0.88rem; color: #A59B8C; }
-
-    .modal-overlay {
-      position: fixed; inset: 0; z-index: 80; background: rgba(10, 9, 8, 0.78);
-      backdrop-filter: blur(6px); display: none; justify-content: center; align-items: flex-start;
-      padding: 2rem 1rem; overflow-y: auto;
-    }
+    /* نافذة القصة */
+    .modal-overlay { position: fixed; inset: 0; z-index: 80; background: rgba(10, 9, 8, 0.8); backdrop-filter: blur(8px); display: none; justify-content: center; align-items: flex-start; padding: 1.5rem 1rem; overflow-y: auto; }
     .modal-overlay.open { display: flex; }
-    .article-modal {
-      background: var(--bg-primary); color: var(--text-primary); width: min(860px, 100%);
-      border-radius: 18px; border: 1px solid var(--border-subtle); box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
-      overflow: hidden; position: relative; animation: modalFade 0.3s ease;
-    }
-    @keyframes modalFade { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .article-modal { background: var(--bg-primary); color: var(--text-primary); width: min(860px, 100%); border-radius: 18px; border: 1px solid var(--border-subtle); box-shadow: 0 28px 70px rgba(0, 0, 0, 0.5); overflow: hidden; position: relative; animation: modalFade 0.35s cubic-bezier(0.22, 1, 0.36, 1); }
+    @keyframes modalFade { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
     .reading-progress { position: sticky; top: 0; height: 4px; background: var(--accent); width: 0%; z-index: 10; transition: width 0.1s; }
     .modal-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-subtle); background: var(--bg-secondary); }
     .close-modal { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border-subtle); display: grid; place-items: center; font-size: 1.15rem; }
-    .close-modal:hover { border-color: var(--accent); color: var(--accent); }
-    .modal-body { padding: 2rem clamp(1.25rem, 4vw, 3rem); }
-    .modal-body h2 { font-size: clamp(1.8rem, 3.2vw, 2.45rem); margin-bottom: 1rem; }
+    .modal-bleed-hero { position: relative; width: 100%; height: clamp(220px, 34vh, 330px); border: none; margin: 0; overflow: hidden; }
+    .modal-bleed-hero img { width: 100%; height: 100%; object-fit: cover; border: none; margin: 0; display: block; }
+    .modal-bleed-fade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, transparent 30%, var(--bg-primary) 100%); }
+    .modal-body { padding: 1rem clamp(1.25rem, 4.5vw, 3.2rem) 2.5rem; }
+    .modal-body h2 { font-size: clamp(1.85rem, 3.2vw, 2.55rem); margin-bottom: 0.9rem; }
+    .modal-body p { margin-bottom: 1.2rem; font-size: 1.08rem; }
 
-    .historical-quote {
-      margin: 1.6rem 0; padding: 1.25rem 1.5rem; border-right: 4px solid var(--accent);
-      background: var(--bg-card); border-radius: 0 10px 10px 0; font-family: 'Amiri', serif; font-size: 1.2rem;
-    }
-    .historical-quote cite { display: block; margin-top: 0.5rem; font-family: 'Cairo', sans-serif; font-size: 0.82rem; color: var(--accent); font-style: normal; }
+    .historical-quote { position: relative; margin: 2rem 0; padding: 1.6rem 2.2rem 1.5rem 1.6rem; border-right: 4px solid var(--accent); background: linear-gradient(to left, var(--accent-soft), var(--bg-card)); border-radius: 0 12px 12px 0; font-family: 'Amiri', serif; font-size: 1.32rem; line-height: 1.75; }
+    .historical-quote::before { content: "“"; position: absolute; top: -6px; right: 12px; font-size: 3.4rem; color: var(--accent); opacity: 0.35; font-family: 'Amiri', serif; line-height: 1; }
+    .historical-quote cite { display: block; margin-top: 0.65rem; font-family: 'Cairo', sans-serif; font-size: 0.84rem; font-weight: 700; color: var(--accent); font-style: normal; }
 
     .interactive-map-box { margin: 2rem 0; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 1.2rem; }
     .map-pin { cursor: pointer; transition: transform 0.2s; }
     .map-pin:hover { transform: scale(1.18); }
-    .map-info-panel { margin-top: 0.85rem; padding: 0.85rem 1rem; background: var(--bg-elevated); border-radius: 10px; border: 1px solid var(--border-subtle); font-size: 0.9rem; }
-
-    .motion-stage {
-      width: 100%; aspect-ratio: 16 / 9; background: #0F0D0B; border-radius: 12px;
-      position: relative; overflow: hidden; display: grid; place-items: center; color: #EAE3D2; padding: 1.5rem; text-align: center;
-    }
-    .motion-animated-path { stroke-dasharray: 420; stroke-dashoffset: 420; animation: drawPath 4.5s ease-in-out infinite alternate; }
-    @keyframes drawPath { to { stroke-dashoffset: 0; } }
+    .map-info-panel { margin-top: 0.85rem; padding: 0.85rem 1rem; background: var(--bg-elevated); border-radius: 10px; border: 1px solid var(--border-subtle); font-size: 0.92rem; }
 
     .footer { padding: 3rem 0 2rem; background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); }
     .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
     .newsletter-form { display: flex; gap: 0.5rem; margin-top: 0.8rem; }
-    .newsletter-form input {
-      flex: 1; padding: 0.6rem 0.9rem; border-radius: 8px; border: 1px solid var(--border-subtle);
-      background: var(--bg-primary); color: var(--text-primary); font-family: 'Cairo', sans-serif;
-    }
+    .newsletter-form input { flex: 1; padding: 0.6rem 0.9rem; border-radius: 8px; border: 1px solid var(--border-subtle); background: var(--bg-primary); color: var(--text-primary); font-family: 'Cairo', sans-serif; }
 
-    .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1); }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), transform 0.75s cubic-bezier(0.22, 1, 0.36, 1); }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
     @media (prefers-reduced-motion: reduce) {
-      .reveal, .astrolabe-ring, .motion-animated-path { animation: none !important; transition: none !important; opacity: 1; transform: none; }
+      .reveal, .astrolabe-ring, .full-bleed-img { animation: none !important; transition: none !important; opacity: 1; transform: none; }
     }
 
     @media (max-width: 900px) {
-      .hero-grid { grid-template-columns: 1fr; }
+      .hero-grid, .reel-grid { grid-template-columns: 1fr; }
+      .vertical-video-frame { max-width: 340px; }
       .nav-links {
         display: none; position: absolute; top: 76px; right: 0; left: 0;
         background: var(--bg-primary); border-bottom: 1px solid var(--border-subtle);
@@ -324,10 +370,10 @@
 
       <nav class="nav-links" id="navLinks">
         <a href="#hero">الرئيسية</a>
+        <a href="#qadisiyyah-reel">قصة القادسية</a>
+        <a href="#documentaries">الوثائقيات</a>
         <a href="#on-this-day">في مثل هذا اليوم</a>
-        <a href="#archive">أرشيف العصور</a>
-        <a href="#stories">المجلة</a>
-        <a href="#motion">الموشن جرافيك</a>
+        <a href="#archive">الأرشيف</a>
       </nav>
 
       <div class="nav-actions">
@@ -347,19 +393,15 @@
   <section id="hero" class="hero">
     <div class="container hero-grid">
       <div class="reveal visible">
-        <span class="badge-seal">📜 ملف العدد التفاعلي • العصر الإسلامي</span>
-        <h1>كيف رسمت معركة القادسية خريطة العالم القديم في أربعة أيام؟</h1>
+        <span class="badge-seal">📜 ملف العدد التفاعلي • 636 ميلادي</span>
+        <h1>كيف ينتصر جيشٌ أصغر عدداً على إمبراطوريةٍ عظمى؟</h1>
         <p>
-          قراءة تاريخية معمّقة في منصة <strong>راوي التاريخ</strong> مدعومة بخرائط المسارات التفاعلية، ونصوص المؤرخين الأوائل،
-          وشرح موشن جرافيك يوضح التكتيكات العسكرية التي غيّرت مجرى التاريخ في المشرق.
+          في عام 15 للهجرة، وقف المسلمون بقيادة سعد بن أبي وقاص في القادسية بالعراق أمام جيش الفرس وفيلتهم الحربية.
+          شاهد الملخص المرئي المدمج واقرأ تفاصيل الأيام الأربعة التي غيّرت خريطة العالم.
         </p>
         <div class="hero-cta">
-          <button class="btn-primary" onclick="openStoryModal(1)">
-            <span>📖</span> اقرأ القصة كاملة
-          </button>
-          <button class="btn-outline" onclick="openMotionModal('qadisiyyah')">
-            <span>▶</span> شاهد ملخص الموشن جرافيك
-          </button>
+          <a href="#qadisiyyah-reel" class="btn-primary"><span>▶</span> شاهد القصة بالفيديو الآن</a>
+          <button class="btn-outline" onclick="openStoryModal(1)"><span>📖</span> اقرأ المقال والخريطة</button>
         </div>
       </div>
 
@@ -377,21 +419,100 @@
           </svg>
         </div>
         <div class="hero-visual-caption">
-          <span>🧭 خريطة تفاعلية ومخطوطات مرفقة</span>
-          <span>⏱ وقت القراءة: 6 دقائق</span>
+          <span>🧭 15 هجرية • القادسية، العراق</span>
+          <span>🎬 فيديو عمودي + قراءة تفاعلية</span>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="on-this-day" class="section">
+  <!-- قسم الفيديو العمودي المدمج الخاص بك (معركة القادسية) -->
+  <section id="qadisiyyah-reel" class="reel-section">
+    <div class="container reel-grid">
+      <div class="vertical-video-frame reveal">
+        <video
+          id="qadisiyyahVideo"
+          src="./qadisiyyah.mp4"
+          controls
+          playsinline
+          preload="metadata"
+          aria-label="فيديو قصة معركة القادسية 636 ميلادي"
+          onerror="document.getElementById('videoFallbackMsg').style.display='flex';"
+        ></video>
+        <div id="videoFallbackMsg" class="video-fallback-note">
+          <span style="font-size:2rem;">🎬</span>
+          <strong class="font-ui" style="color:#C5A059;">بانتظار ملف الفيديو</strong>
+          <p class="font-ui" style="font-size:0.82rem; color:#BEB5A6;">
+            ارفع الفيديو الذي أرسلته إلى GitHub باسم <code style="color:#fff;">qadisiyyah.mp4</code> ليشتغل هنا مباشرة بدون حواف!
+          </p>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <span class="badge-seal">⚔️ القصة المرئية • 4 أيام من القتال</span>
+        <h2 class="section-title">معركة القادسية: تسلسل الأيام الأربعة الحاسمة</h2>
+        <p style="color:var(--text-secondary); margin-top:0.5rem;">
+          يظن كثيرون أن الكثرة تحسم المعارك، لكن القادسية عام 636م أثبتت العكس؛ حيث واجه المسلمون بقيادة سعد بن أبي وقاص جيش الفرس بقيادة رستم وفيلته المدرعة:
+        </p>
+
+        <div class="days-list">
+          <div class="day-step">
+            <strong>اليوم 1: يوم أرماث</strong>
+            <p>استخدم الفرس الفيلة الحربية المدرعة مما أربك خيول المسلمين في بداية المواجهة.</p>
+          </div>
+          <div class="day-step">
+            <strong>اليوم 2: يوم أغواث</strong>
+            <p>وصول القعقاع بن عمرو بمدد من الشام، مما قلب الروح المعنوية وأعاد التوازن للميدان.</p>
+          </div>
+          <div class="day-step">
+            <strong>اليوم 3: يوم عماس</strong>
+            <p>استهداف أعين الفيلة وقطع حبال هوادجها ففرت من الميدان، واستمر القتال ليلة الهرير.</p>
+          </div>
+          <div class="day-step">
+            <strong>اليوم 4: يوم القادسية</strong>
+            <p>مقتل القائد الفارسي رستم وانهيار جيش الساسانيين، وانفتاح الطريق نحو عاصمتهم المدائن.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- مشهد بصري ممتد بدون حواف -->
+  <section class="full-bleed-scene reveal">
+    <img id="featuredSceneImg" class="full-bleed-img" loading="lazy" alt="مشهد تاريخي مندمج" />
+    <div class="seamless-overlay"></div>
+    <div class="full-bleed-caption">
+      <div class="full-bleed-card">
+        <span class="badge-seal" style="margin-bottom:0.6rem;">🖼️ سرد بصري سينمائي</span>
+        <h3 id="featuredSceneTitle">أربعة أيام غيّرت خريطة العالم</h3>
+        <p id="featuredSceneDesc">دمج بصري بدون حواف يربط الصورة التاريخية بروح الورق العتيق لتجربة قراءة حيّة ومريحة.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم وثائقيات اليوتيوب -->
+  <section id="documentaries" class="section">
     <div class="container">
       <div class="section-header reveal">
         <div>
-          <h2 class="section-title">في مثل هذا اليوم: <span id="todayLabel" style="color:var(--accent)">16 نوفمبر</span></h2>
+          <h2 class="section-title">الوثائقيات التاريخية (YouTube)</h2>
+          <p class="section-subtitle">مشاهدة متجاوبة لوثائقيات اليوتيوب بتحميل ذكي يحافظ على سرعة الموقع</p>
+        </div>
+        <span class="badge-seal" style="margin:0">🎬 HD • بدون حواف مزعجة</span>
+      </div>
+
+      <div class="docs-grid" id="youtubeDocsGrid"></div>
+    </div>
+  </section>
+
+  <!-- في مثل هذا اليوم -->
+  <section id="on-this-day" class="section" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <h2 class="section-title">في مثل هذا اليوم: <span style="color:var(--accent)">16 نوفمبر</span></h2>
           <p class="section-subtitle">محطات فارقة وقعت في نفس هذا التاريخ عبر القرون</p>
         </div>
-        <span class="badge-seal" style="margin:0">⏳ تحديث يومي من الأرشيف</span>
       </div>
 
       <div class="otd-grid">
@@ -419,12 +540,13 @@
     </div>
   </section>
 
-  <section id="archive" class="section" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);">
+  <!-- أرشيف العصور والمجلة -->
+  <section id="archive" class="section">
     <div class="container">
       <div class="section-header reveal">
         <div>
           <h2 class="section-title">أرشيف العصور ومجلة القصص</h2>
-          <p class="section-subtitle">تصفح الخط الزمني أو اختر الحقبة التاريخية لاستكشاف المقالات</p>
+          <p class="section-subtitle">اختر الحقبة التاريخية أو استعرض الخط الزمني لقراءة القصص والاطلاع على خرائطها</p>
         </div>
       </div>
 
@@ -436,98 +558,15 @@
         <button class="era-pill" data-era="حديث">العصر الحديث</button>
       </div>
 
-      <div class="timeline-strip reveal" id="timelineStrip">
-        <div class="timeline-node" onclick="openStoryModal(2)">
-          <span>1274 ق.م • فرعوني</span>
-          <h4>معاهدة قادش للسلام</h4>
-        </div>
-        <div class="timeline-node" onclick="openStoryModal(3)">
-          <span>44 ق.م • روماني</span>
-          <h4>اغتيال يوليوس قيصر</h4>
-        </div>
-        <div class="timeline-node" onclick="openStoryModal(1)">
-          <span>636 م • إسلامي</span>
-          <h4>ملحمة القادسية</h4>
-        </div>
-        <div class="timeline-node" onclick="openStoryModal(4)">
-          <span>1187 م • إسلامي</span>
-          <h4>استراتيجية حطين</h4>
-        </div>
-        <div class="timeline-node" onclick="openStoryModal(5)">
-          <span>1869 م • حديث</span>
-          <h4>شق شريان قناة السويس</h4>
-        </div>
+      <div class="timeline-strip reveal">
+        <div class="timeline-node" onclick="openStoryModal(2)"><span>1274 ق.م • فرعوني</span><h4>معاهدة قادش للسلام</h4></div>
+        <div class="timeline-node" onclick="openStoryModal(3)"><span>44 ق.م • روماني</span><h4>اغتيال يوليوس قيصر</h4></div>
+        <div class="timeline-node" onclick="openStoryModal(1)"><span>636 م • إسلامي</span><h4>ملحمة القادسية</h4></div>
+        <div class="timeline-node" onclick="openStoryModal(4)"><span>1187 م • إسلامي</span><h4>استراتيجية حطين</h4></div>
+        <div class="timeline-node" onclick="openStoryModal(5)"><span>1869 م • حديث</span><h4>شق شريان قناة السويس</h4></div>
       </div>
 
       <div id="stories" class="stories-grid"></div>
-    </div>
-  </section>
-
-  <section id="motion" class="cinema-section">
-    <div class="container">
-      <div class="section-header reveal" style="border-color: rgba(197,160,89,0.2);">
-        <div>
-          <h2 class="section-title">سينما الموشن جرافيك التاريخي</h2>
-          <p class="section-subtitle">فيديوهات قصيرة ورسوم متحركة تشرح المعارك والتحولات الكبرى بلا إطارات تقليدية</p>
-        </div>
-      </div>
-
-      <div class="motion-grid">
-        <article class="motion-card reveal">
-          <div class="video-facade" onclick="openMotionModal('qadisiyyah')">
-            <svg viewBox="0 0 400 225" width="100%" height="100%">
-              <rect width="400" height="225" fill="#17130E" />
-              <path d="M40 160 Q 150 50, 350 95" stroke="#C5A059" stroke-width="2" stroke-dasharray="6 4" fill="none" />
-              <circle cx="110" cy="120" r="6" fill="#C5A059" />
-              <circle cx="290" cy="85" r="6" fill="#B24A4A" />
-            </svg>
-            <div class="play-circle">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="#C5A059"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
-          <div class="motion-info">
-            <span>🎬 موشن جرافيك • 03:20 دقيقة</span>
-            <h3>تشريح معركة القادسية على الخريطة</h3>
-            <p>كيف تفوّق سلاح الفرسان الخفيف على تشكيلات الفيلة المدرعة في أربعة أيام حاسمة.</p>
-          </div>
-        </article>
-
-        <article class="motion-card reveal">
-          <div class="video-facade" onclick="openMotionModal('suez')">
-            <svg viewBox="0 0 400 225" width="100%" height="100%">
-              <rect width="400" height="225" fill="#0F171A" />
-              <path d="M200 10 C 190 80, 220 140, 195 215" stroke="#5AA9E6" stroke-width="6" fill="none" opacity="0.65" />
-              <circle cx="203" cy="112" r="7" fill="#C5A059" />
-            </svg>
-            <div class="play-circle">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="#C5A059"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
-          <div class="motion-info">
-            <span>🎬 موشن جرافيك • 02:45 دقيقة</span>
-            <h3>هندسة قناة السويس من الفراعنة إلى 1869</h3>
-            <p>رحلة فكرة الربط المائي منذ عهد سنوسرت الثالث حتى الافتتاح العالمي.</p>
-          </div>
-        </article>
-
-        <article class="motion-card reveal">
-          <div class="video-facade" onclick="openMotionModal('hattin')">
-            <svg viewBox="0 0 400 225" width="100%" height="100%">
-              <rect width="400" height="225" fill="#1A1412" />
-              <polygon points="160,155 200,85 240,155" stroke="#C5A059" stroke-width="2" fill="rgba(197,160,89,0.12)" />
-              <path d="M70 180 L 185 125" stroke="#B24A4A" stroke-width="2.5" stroke-dasharray="5 3" />
-            </svg>
-            <div class="play-circle">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="#C5A059"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-          </div>
-          <div class="motion-info">
-            <span>🎬 موشن جرافيك • 04:10 دقائق</span>
-            <h3>تكتيك السيطرة على الماء في حطين</h3>
-            <p>تحليل بصري لكيفية استدراج صلاح الدين الأيوبي للجيش الصليبي نحو قرون حطين.</p>
-          </div>
-        </article>
-      </div>
     </div>
   </section>
 
@@ -536,21 +575,19 @@
       <div class="footer-grid">
         <div>
           <strong class="font-historical" style="font-size:1.5rem;">راوي التاريخ</strong>
-          <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">
-            منصة عربية تُعنى بإحياء القصص التاريخية وتقديم أخبار الاكتشافات الأثرية بتصميم عصري وموشن جرافيك تفاعلي.
-          </p>
+          <p style="color:var(--text-secondary); font-size:0.9rem; margin-top:0.5rem;">منصة عربية تُعنى بإحياء القصص التاريخية وتقديم الوثائقيات والأخبار الأثرية بتصميم عصري فخم.</p>
         </div>
         <div>
-          <h4 class="font-ui" style="font-size:1rem; margin-bottom:0.5rem;">الأقسام الرئيسية</h4>
+          <h4 class="font-ui" style="font-size:1rem; margin-bottom:0.5rem;">أقسام المنصة</h4>
           <ul style="list-style:none; color:var(--text-secondary); font-size:0.9rem; display:grid; gap:0.35rem;">
-            <li><a href="#on-this-day">في مثل هذا اليوم</a></li>
-            <li><a href="#archive">أرشيف العصور</a></li>
-            <li><a href="#motion">سينما الموشن جرافيك</a></li>
+            <li><a href="#qadisiyyah-reel">فيديو معركة القادسية</a></li>
+            <li><a href="#documentaries">الوثائقيات التاريخية</a></li>
+            <li><a href="#archive">أرشيف العصور والمجلة</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="font-ui" style="font-size:1rem;">رسالة من الماضي (النشرة البريدية)</h4>
-          <p style="color:var(--text-secondary); font-size:0.85rem;">تصلك قصة تاريخية مختارة ومقطع موشن أسبوعياً.</p>
+          <h4 class="font-ui" style="font-size:1rem;">رسالة من الماضي</h4>
+          <p style="color:var(--text-secondary); font-size:0.85rem;">تصلك قصة تاريخية مختارة ووثائقي أسبوعياً.</p>
           <form class="newsletter-form" onsubmit="event.preventDefault(); alert('تم اشتراكك بنجاح في نشرة راوي التاريخ!');">
             <input type="email" placeholder="بريدك الإلكتروني..." required />
             <button type="submit" class="btn-primary" style="padding:0.55rem 1rem;">اشترك</button>
@@ -570,150 +607,187 @@
         <span id="modalEraBadge" class="badge-seal" style="margin:0"></span>
         <button class="close-modal" onclick="closeStoryModal()" aria-label="إغلاق">✕</button>
       </div>
-      <div class="modal-body" id="modalContent"></div>
+      <div id="modalContent"></div>
     </article>
   </div>
 
-  <div id="motionModalOverlay" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'motionModalOverlay')">
-    <div class="article-modal" style="max-width:780px; background:#141210; color:#EAE3D2; border-color:rgba(197,160,89,0.3);">
-      <div class="modal-header" style="background:#1B1815; border-color:rgba(197,160,89,0.2);">
-        <span class="font-ui" style="color:#C5A059; font-weight:700;">🎬 عرض الموشن جرافيك التفاعلي</span>
-        <button class="close-modal" onclick="closeMotionModal()" aria-label="إغلاق">✕</button>
-      </div>
-      <div class="modal-body" id="motionModalBody"></div>
-    </div>
-  </div>
-
   <script>
+    const MEDIA_CONFIG = {
+      video1Url: "", // رابط فيديو اليوتيوب الأول
+      video1Title: "وثائقي: أسرار معركة القادسية وتحوّل التاريخ",
+      video1Desc: "تحليل بصري متكامل لأيام القادسية الأربعة وكيف حُسمت المواجهة بالتكتيك الميداني.",
+      video2Url: "", // رابط فيديو اليوتيوب الثاني
+      video2Title: "وثائقي: حطين — عبقريّة استثمار الجغرافيا والمياه",
+      video2Desc: "قراءة وثائقية دقيقة لخطة صلاح الدين الأيوبي التي فتحت الطريق نحو بيت المقدس.",
+      image1Url: "", // رابط الصورة التاريخية الأولى بدون حواف
+      image2Url: ""  // رابط الصورة التاريخية الثانية
+    };
+
+    function makeArtFallback(color1, color2) {
+      const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'>
+        <defs>
+          <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='${color1}'/><stop offset='100%' stop-color='${color2}'/></linearGradient>
+          <radialGradient id='glow' cx='50%' cy='45%' r='50%'><stop offset='0%' stop-color='#C5A059' stop-opacity='0.28'/><stop offset='100%' stop-color='transparent'/></radialGradient>
+        </defs>
+        <rect width='1200' height='600' fill='url(#g)'/><rect width='1200' height='600' fill='url(#glow)'/>
+        <circle cx='600' cy='290' r='175' fill='none' stroke='#C5A059' stroke-opacity='0.35' stroke-width='2' stroke-dasharray='8 8'/>
+        <polygon points='600,130 638,242 750,290 638,338 600,450 562,338 450,290 562,242' fill='rgba(197,160,89,0.08)' stroke='#C5A059' stroke-opacity='0.45' stroke-width='1.5'/>
+      </svg>`;
+      return "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg);
+    }
+
+    const fallbackArt1 = makeArtFallback("#2B2016", "#120D09");
+    const fallbackArt2 = makeArtFallback("#2C2418", "#16120C");
+
+    const featuredImgEl = document.getElementById("featuredSceneImg");
+    featuredImgEl.src = MEDIA_CONFIG.image1Url.trim() || fallbackArt1;
+    featuredImgEl.onerror = () => { featuredImgEl.src = fallbackArt1; };
+
+    function extractYouTubeId(url) {
+      if (!url) return "";
+      const clean = url.trim();
+      if (/^[a-zA-Z0-9_-]{11}$/.test(clean)) return clean;
+      const match = clean.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+      return match ? match[1] : "";
+    }
+
+    const documentaries = [
+      { url: MEDIA_CONFIG.video1Url, title: MEDIA_CONFIG.video1Title, desc: MEDIA_CONFIG.video1Desc, fallback: fallbackArt1 },
+      { url: MEDIA_CONFIG.video2Url, title: MEDIA_CONFIG.video2Title, desc: MEDIA_CONFIG.video2Desc, fallback: fallbackArt2 }
+    ];
+
+    function renderDocumentaries() {
+      document.getElementById("youtubeDocsGrid").innerHTML = documentaries.map((doc, idx) => {
+        const ytId = extractYouTubeId(doc.url);
+        const thumbUrl = ytId ? `https://i.ytimg.com/vi/${ytId}/hqdefault.jpg` : doc.fallback;
+        const badgeText = ytId ? "▶ تشغيل وثائقي YouTube" : "⏳ أضف رابط اليوتيوب في MEDIA_CONFIG";
+        return `
+          <article class="doc-card reveal">
+            <div class="youtube-shell" id="ytShell_${idx}" onclick="activateYouTube(${idx}, '${ytId}')">
+              <img src="${thumbUrl}" alt="${doc.title}" loading="lazy" onerror="this.src='${doc.fallback}'" />
+              <div class="yt-gradient"></div>
+              <div class="play-circle"><svg width="24" height="24" viewBox="0 0 24 24" fill="#CCA65E"><path d="M8 5v14l11-7z"/></svg></div>
+              <span class="yt-badge">${badgeText}</span>
+            </div>
+            <div class="doc-meta"><h3>${doc.title}</h3><p>${doc.desc}</p></div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    window.activateYouTube = function(idx, ytId) {
+      const shell = document.getElementById(`ytShell_${idx}`);
+      if (!ytId) {
+        alert("لتشغيل فيديو يوتيوب إضافي، أرسل لي الرابط لأضيفه لك أو ضعه في MEDIA_CONFIG.");
+        return;
+      }
+      shell.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${ytId}?autoplay=1&rel=0" title="${documentaries[idx].title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    };
+    renderDocumentaries();
+
     const storiesData = [
       {
         id: 1, era: "إسلامي", date: "636 م / 15 هـ", readTime: "6 دقائق",
+        image: MEDIA_CONFIG.image1Url.trim() || fallbackArt1,
         title: "ملحمة القادسية: كيف حسم التكتيك الميداني مصير بلاد الرافدين؟",
         excerpt: "تفاصيل الأيام الأربعة التي واجه فيها المسلمون جيش الفرس المدعوم بالفيلة، وكيف غيّر الرماة موازين القوى.",
         quote: "«ما رأيت يوماً قط كان أشد من يوم أرماث وأغواث، غير أن الصبر عند اللقاء يفتح مغاليق النصر.»",
         quoteAuthor: "من مرويات الطبري في تاريخ الرسل والملوك",
-        content: `<p>في منتصف شهر نوفمبر عام 636 ميلادية، احتشد الجيشان على ضفاف نهر العتيق عند القادسية. اعتمد القائد الفارسي رستم على قوة الصدمة عبر صفوف الفيلة المدرعة، بينما لجأ سعد بن أبي وقاص إلى تقسيم المعركة إلى موجات استنزاف ذكية.</p><p>في اليوم الثالث (يوم عماس)، أدرك المقاتلون أن استهداف الفيلة بالرماح والنشاب في مناطقها الحساسة هو المفتاح لكسر الجمود، مما أفقد جيش الساسانيين أهم ورقة دفاعية وهجومية لديه.</p>`,
+        content: `<p>في عام 15 للهجرة (636 ميلادي)، احتشد الجيشان في القادسية بالعراق. اعتمد القائد الفارسي رستم على كثرة العدد والفيلة الحربية المدرعة التي أربكت الخيول في اليوم الأول (يوم أرماث).</p><p>وفي اليوم الثاني (يوم أغواث)، وصل القعقاع بن عمرو بمدد من الشام، ثم في اليوم الثالث (يوم عماس) أصاب المسلمون الفيلة في أعينها فهربت، واستمر القتال حتى ليلة الهرير، ليُقتل رستم في اليوم الرابع وينهار جيش الفرس وينفتح الطريق إلى المدائن.</p>`,
         mapPins: [
-          { x: 120, y: 120, label: "معسكر القادسية", detail: "نقطة تمركز قلب الجيش الإسلامي بقيادة سعد بن أبي وقاص." },
-          { x: 260, y: 85, label: "ضفة نهر العتيق", detail: "موقع عبور القوات الساسانية وتشكيل صفوف الفيلة." },
-          { x: 330, y: 145, label: "طريق المدائن", detail: "المسار الاستراتيجي الذي انفتح نحو عاصمة الإمبراطورية بعد المعركة." }
-        ],
-        motionKey: "qadisiyyah"
+          { x: 120, y: 120, label: "معسكر القادسية", detail: "نقطة تمركز جيش المسلمين بقيادة سعد بن أبي وقاص." },
+          { x: 260, y: 85, label: "ضفة نهر العتيق", detail: "موقع مواجهة الفيلة الحربية في يومي أرماث وعماس." },
+          { x: 330, y: 145, label: "طريق المدائن", detail: "المسار الذي انفتح نحو عاصمة الفرس في اليوم الرابع." }
+        ]
       },
       {
         id: 2, era: "فرعوني", date: "1274 ق.م", readTime: "5 دقائق",
+        image: MEDIA_CONFIG.image2Url.trim() || fallbackArt2,
         title: "معاهدة قادش: أقدم وثيقة سلام مكتوبة في التاريخ البشري",
         excerpt: "قصة الصراع المصري الحيثي في عهد رمسيس الثاني، الذي انتهى بنقش بنود السلام على ألواح الفضة وجدران الكرنك.",
         quote: "«ليكن هناك سلام وأخوة أبدية بين أرض مصر وأرض خاتي، لا يعبر أحدنا حدود الآخر بسوء.»",
         quoteAuthor: "ترجمة نقش معاهدة قادش على جدران معبد الكرنك",
-        content: `<p>بعد معركة قادش الشهيرة، أدركت الإمبراطوريتان المصرية والحيثية أن استمرار الاستنزاف العسكري يهدد استقرارهما أمام قوى صاعدة في بلاد آشور.</p><p>للمرة الأولى في التاريخ الموثق، جرى صياغة بنود دبلوماسية دقيقة تشمل الدفاع المشترك وتسليم الهاربين وحماية التجارة الدولية، وحُفظت نسخة منها في متحف إسطنبول ونسخة أخرى في معابد الأقصر.</p>`,
+        content: `<p>بعد معركة قادش الشهيرة، أدركت الإمبراطوريتان المصرية والحيثية أن استمرار الاستنزاف العسكري يهدد استقرارهما، فتمت صياغة أول معاهدة سلام دولية موثقة في التاريخ.</p>`,
         mapPins: [
-          { x: 110, y: 150, label: "طيبة (الأقصر)", detail: "حيث نُقش النص الهيروغليفي الكامل للمعاهدة على جدران الكرنك." },
-          { x: 255, y: 95, label: "قادش (على نهر العاصي)", detail: "مسرح المواجهة الكبرى قبل التحول إلى المسار الدبلوماسي." }
-        ],
-        motionKey: "suez"
+          { x: 110, y: 150, label: "طيبة (الأقصر)", detail: "حيث نُقش النص الهيروغليفي الكامل للمعاهدة." },
+          { x: 255, y: 95, label: "قادش", detail: "مسرح المواجهة الكبرى قبل التحول للسلام." }
+        ]
       },
       {
         id: 3, era: "روماني", date: "44 ق.م", readTime: "4 دقائق",
+        image: fallbackArt1,
         title: "منتصف مارس: الساعات الأخيرة في حياة يوليوس قيصر",
         excerpt: "لماذا تجاهل قيصر نبوءات الكهنة وتحذيرات زوجته، وتوجه إلى مجلس الشيوخ في مسرح بومبي؟",
         quote: "«من الأفضل أن تموت مرة واحدة، على أن تعيش في خوف دائم من الموت.»",
         quoteAuthor: "منسوب إلى يوليوس قيصر في كتابات بلوتارخ",
-        content: `<p>تحوّل صعود قيصر إلى ديكتاتور مدى الحياة إلى هاجس مرعب لأعضاء مجلس الشيوخ الروماني الذين رأوا في ذلك نهاية للجمهورية.</p><p>في الخامس عشر من مارس عام 44 ق.م، نُفذت خطة الاغتيال التي لم تنقذ الجمهورية كما أمل المتآمرون، بل أشعلت حرباً أهلية انتهت بميلاد الإمبراطورية الرومانية على يد أغسطس.</p>`,
+        content: `<p>تحوّل صعود قيصر إلى ديكتاتور مدى الحياة إلى هاجس لأعضاء مجلس الشيوخ، فنُفذت خطة اغتياله التي أشعلت حرباً أهلية انتهت بميلاد الإمبراطورية الرومانية.</p>`,
         mapPins: [
-          { x: 165, y: 115, label: "مسرح بومبي", detail: "الموقع الفعلي لاجتماع مجلس الشيوخ الذي شهد الاغتيال." },
-          { x: 280, y: 140, label: "المنتدى الروماني", detail: "الساحة التي ألقى فيها مارك أنطونيو خطبته الشهيرة وأشعل غضب العامة." }
-        ],
-        motionKey: "hattin"
+          { x: 165, y: 115, label: "مسرح بومبي", detail: "الموقع الفعلي لاجتماع مجلس الشيوخ." },
+          { x: 280, y: 140, label: "المنتدى الروماني", detail: "الساحة التي ألقى فيها مارك أنطونيو خطبته الشهيرة." }
+        ]
       },
       {
         id: 4, era: "إسلامي", date: "1187 م", readTime: "7 دقائق",
+        image: fallbackArt2,
         title: "حطين: كيف حوّل صلاح الدين الجغرافيا والعطش إلى سلاح حاسم؟",
         excerpt: "قراءة عسكرية في اختيار توقيت ومكان المعركة الحاسمة التي مهّدت لتحرير بيت المقدس.",
         quote: "«إذا أذن الله بالفتح، فإن تدبير القائد في قطع الماء عن عدوه يغني عن نصف السيوف.»",
         quoteAuthor: "تحليل عسكري من كتابات ابن شداد",
-        content: `<p>لم تكن معركة حطين مجرد التحام بالسيف، بل كانت درساً في الحرب النفسية وإدارة الموارد. استدرج صلاح الدين جيش الصليبيين من سهل صفورية الوفير بالماء إلى هضبة جرداء محاصرة.</p><p>بعد ليلة شاقة بلا قطرة ماء، أُضرمت النيران في الأعشاب اليابسة ليزداد وهج الحر والدخان، مما جعل القتال عند طلوع الفجر محسوماً لصالح القوات الأيوبية.</p>`,
+        content: `<p>استدرج صلاح الدين جيش الصليبيين من سهل صفورية الوفير بالماء إلى هضبة جرداء محاصرة عند قرون حطين، ليحسم المعركة بعبقرية تكتيكية نادرة.</p>`,
         mapPins: [
-          { x: 100, y: 135, label: "ينابيع صفورية", detail: "نقطة انطلاق الجيش الصليبي قبل انقطاع الإمدادات." },
-          { x: 225, y: 105, label: "قرون حطين", detail: "التلة البركانية التي حوصر عندها الفرسان دون ماء." },
-          { x: 315, y: 80, label: "بحيرة طبريا", detail: "مصدر المياه الذي أغلقه جيش صلاح الدين بإحكام." }
-        ],
-        motionKey: "hattin"
+          { x: 100, y: 135, label: "ينابيع صفورية", detail: "نقطة انطلاق الجيش الصليبي." },
+          { x: 225, y: 105, label: "قرون حطين", detail: "التلة البركانية التي حوصر عندها الفرسان." },
+          { x: 315, y: 80, label: "بحيرة طبريا", detail: "مصدر المياه الذي أغلقه جيش صلاح الدين." }
+        ]
       },
       {
         id: 5, era: "حديث", date: "1869 م", readTime: "5 دقائق",
+        image: fallbackArt1,
         title: "قناة السويس: حلم الفراعنة الذي تحقق في قلب القرن التاسع عشر",
         excerpt: "من قناة سنوسرت الثالث القديمة إلى الاحتفال الأسطوري في الإسماعيلية في 16 نوفمبر 1869.",
         quote: "«إن القناة لم تُحفر بالحديد وحده، بل بسواعد آلاف العمال الذين أعادوا رسم خطوط التجارة العالمية.»",
         quoteAuthor: "أرشيف الصحافة التاريخية - القرن 19",
-        content: `<p>تطلبت عملية الحفر التي استمرت عشر سنوات جهداً هندسياً وبشرياً هائلاً لربط البحر الأبيض المتوسط بالبحر الأحمر عبر البحيرات المرة.</p><p>ومع مرور السفن الأولى في احتفالات نوفمبر 1869، تقلصت المسافة البحرية بين أوروبا وآسيا لآلاف الأميال، لتصبح القناة أحد أهم الممرات الاستراتيجية في التاريخ الحديث.</p>`,
+        content: `<p>تطلبت عملية الحفر عشر سنوات لربط البحر الأبيض المتوسط بالبحر الأحمر عبر البحيرات المرة، لتصبح القناة أحد أهم الممرات الاستراتيجية في التاريخ الحديث.</p>`,
         mapPins: [
-          { x: 195, y: 55, label: "بورسعيد", detail: "المدخل الشمالي للقناة على البحر الأبيض المتوسط." },
-          { x: 205, y: 115, label: "الإسماعيلية", detail: "مدينة الاحتفال الرسمي بافتتاح الملاحة العالمية." },
+          { x: 195, y: 55, label: "بورسعيد", detail: "المدخل الشمالي للقناة." },
+          { x: 205, y: 115, label: "الإسماعيلية", detail: "مدينة الاحتفال الرسمي بافتتاح الملاحة." },
           { x: 190, y: 170, label: "السويس", detail: "المدخل الجنوبي المتصل بالبحر الأحمر." }
-        ],
-        motionKey: "suez"
+        ]
       }
     ];
-
-    const motionCatalog = {
-      qadisiyyah: { title: "تشريح معركة القادسية (موشن جرافيك)", desc: "مشهد متحرك يوضح التفاف الفرسان ومواجهة الفيلة عبر ضفة نهر العتيق.", color: "#C5A059", path: "M 50 170 Q 170 45 350 95" },
-      suez: { title: "مسار شق قناة السويس عبر العصور", desc: "رسم توضيحي لمسار القناة من بورسعيد شمالاً عبر البحيرات المرة إلى السويس.", color: "#5AA9E6", path: "M 200 20 C 185 85 225 145 195 205" },
-      hattin: { title: "حطين: خطة الحصار والسيطرة على المياه", desc: "تتبع حركة الكماشة الأيوبية التي قطعت الطريق نحو بحيرة طبريا.", color: "#D97757", path: "M 70 180 L 195 110 L 320 140" }
-    };
 
     const themeToggle = document.getElementById("themeToggle");
     const themeIcon = document.getElementById("themeIcon");
     const themeLabel = document.getElementById("themeLabel");
-
     function applyTheme(theme) {
       document.documentElement.setAttribute("data-theme", theme);
       localStorage.setItem("site-theme", theme);
-      if (theme === "dark") {
-        themeIcon.textContent = "📜";
-        themeLabel.textContent = "الوضع العتيق";
-      } else {
-        themeIcon.textContent = "🌙";
-        themeLabel.textContent = "الوضع المظلم";
-      }
+      themeIcon.textContent = theme === "dark" ? "📜" : "🌙";
+      themeLabel.textContent = theme === "dark" ? "الوضع العتيق" : "الوضع المظلم";
     }
     applyTheme(localStorage.getItem("site-theme") || "vintage");
-
-    themeToggle.addEventListener("click", () => {
-      const current = document.documentElement.getAttribute("data-theme");
-      applyTheme(current === "dark" ? "vintage" : "dark");
-    });
-
-    document.getElementById("mobileMenuBtn").addEventListener("click", () => {
-      document.getElementById("navLinks").classList.toggle("open");
-    });
+    themeToggle.addEventListener("click", () => applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "vintage" : "dark"));
+    document.getElementById("mobileMenuBtn").addEventListener("click", () => document.getElementById("navLinks").classList.toggle("open"));
 
     let activeEra = "all";
     let searchQuery = "";
 
     function renderStories() {
       const container = document.getElementById("stories");
-      const filtered = storiesData.filter(s => {
-        const matchEra = activeEra === "all" || s.era === activeEra;
-        const matchSearch = s.title.includes(searchQuery) || s.excerpt.includes(searchQuery) || s.era.includes(searchQuery);
-        return matchEra && matchSearch;
-      });
-      if (filtered.length === 0) {
+      const filtered = storiesData.filter(s => (activeEra === "all" || s.era === activeEra) && (s.title.includes(searchQuery) || s.excerpt.includes(searchQuery) || s.era.includes(searchQuery)));
+      if (!filtered.length) {
         container.innerHTML = `<p style="color:var(--text-secondary); grid-column:1/-1; text-align:center; padding:2rem;">لا توجد نتائج مطابقة لبحثك حالياً.</p>`;
         return;
       }
       container.innerHTML = filtered.map(story => `
         <article class="story-card reveal visible">
-          <div class="story-cover" style="background: linear-gradient(135deg, #2B2118 0%, #4E3B28 100%);">
-            <span class="story-era-tag">العصر ال${story.era}</span>
-            <svg width="110" height="110" viewBox="0 0 120 120" fill="none" opacity="0.28">
-              <circle cx="60" cy="60" r="48" stroke="#C5A059" stroke-width="1.5" stroke-dasharray="4 4"/>
-              <polygon points="60,18 75,48 105,60 75,72 60,102 45,72 15,60 45,48" stroke="#C5A059" stroke-width="1.2"/>
-            </svg>
-            <span style="position:absolute; bottom:10px; left:14px; color:#C5A059; font-family:Cairo; font-size:0.78rem; font-weight:700;">${story.date}</span>
+          <div class="story-cover">
+            <img src="${story.image}" alt="${story.title}" loading="lazy" onerror="this.src='${fallbackArt1}'" />
+            <div class="story-cover-fade"></div>
+            <span class="story-era-tag">العصر ال${story.era} • ${story.date}</span>
           </div>
           <div class="story-body">
-            <div class="story-meta"><span>⏱ ${story.readTime}</span><span>🗺 خريطة + موشن جرافيك</span></div>
+            <div class="story-meta"><span>⏱ ${story.readTime}</span><span>🗺 خريطة تفاعلية</span></div>
             <h3>${story.title}</h3>
             <p>${story.excerpt}</p>
             <button class="read-more-btn" onclick="openStoryModal(${story.id})">اقرأ القصة كاملة ←</button>
@@ -730,11 +804,7 @@
         renderStories();
       });
     });
-
-    document.getElementById("searchInput").addEventListener("input", e => {
-      searchQuery = e.target.value.trim();
-      renderStories();
-    });
+    document.getElementById("searchInput").addEventListener("input", e => { searchQuery = e.target.value.trim(); renderStories(); });
     renderStories();
 
     function openStoryModal(id) {
@@ -750,23 +820,26 @@
       `).join("");
 
       document.getElementById("modalContent").innerHTML = `
-        <h2>${story.title}</h2>
-        <div style="font-family:Cairo; font-size:0.84rem; color:var(--text-secondary); margin-bottom:1.5rem;">
-          ⏱ وقت القراءة: ${story.readTime} • ✍ تحرير: منصة راوي التاريخ
+        <div class="modal-bleed-hero">
+          <img src="${story.image}" alt="${story.title}" loading="lazy" onerror="this.src='${fallbackArt1}'" />
+          <div class="modal-bleed-fade"></div>
         </div>
-        ${story.content}
-        <blockquote class="historical-quote">${story.quote}<cite>— ${story.quoteAuthor}</cite></blockquote>
-        <div class="interactive-map-box">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
-            <strong class="font-ui" style="font-size:0.95rem;">🗺 خريطة تفاعلية: اضغط على النقاط لاستكشاف المواقع</strong>
-            <button class="btn-outline" style="padding:0.35rem 0.85rem; font-size:0.78rem;" onclick="openMotionModal('${story.motionKey}')">▶ عرض الموشن المرافق</button>
+        <div class="modal-body">
+          <h2>${story.title}</h2>
+          <div style="font-family:Cairo; font-size:0.84rem; color:var(--text-secondary); margin-bottom:1.5rem;">
+            ⏱ وقت القراءة: ${story.readTime} • ✍ تحرير: منصة راوي التاريخ
           </div>
-          <svg viewBox="0 0 400 200" width="100%" style="background:#1A1714; border-radius:10px; border:1px solid var(--border-subtle);">
-            <path d="M20 40 Q 150 20, 380 60" stroke="rgba(197,160,89,0.2)" fill="none" stroke-dasharray="4 4"/>
-            <path d="M40 160 Q 200 110, 360 150" stroke="rgba(90,169,230,0.25)" stroke-width="4" fill="none"/>
-            ${pinsSvg}
-          </svg>
-          <div id="mapInfoPanel" class="map-info-panel"><strong>${story.mapPins[0].label}:</strong> ${story.mapPins[0].detail}</div>
+          ${story.content}
+          <blockquote class="historical-quote">${story.quote}<cite>— ${story.quoteAuthor}</cite></blockquote>
+          <div class="interactive-map-box">
+            <strong class="font-ui" style="display:block; font-size:0.95rem; margin-bottom:0.75rem;">🗺 خريطة تفاعلية: اضغط على النقاط لاستكشاف المواقع</strong>
+            <svg viewBox="0 0 400 200" width="100%" style="background:#1A1714; border-radius:10px; border:1px solid var(--border-subtle);">
+              <path d="M20 40 Q 150 20, 380 60" stroke="rgba(197,160,89,0.2)" fill="none" stroke-dasharray="4 4"/>
+              <path d="M40 160 Q 200 110, 360 150" stroke="rgba(90,169,230,0.25)" stroke-width="4" fill="none"/>
+              ${pinsSvg}
+            </svg>
+            <div id="mapInfoPanel" class="map-info-panel"><strong>${story.mapPins[0].label}:</strong> ${story.mapPins[0].detail}</div>
+          </div>
         </div>
       `;
       const overlay = document.getElementById("storyModalOverlay");
@@ -780,59 +853,19 @@
       const pin = story.mapPins[pinIdx];
       document.getElementById("mapInfoPanel").innerHTML = `<strong>${pin.label}:</strong> ${pin.detail}`;
     };
-
     function closeStoryModal() { document.getElementById("storyModalOverlay").classList.remove("open"); }
+    function closeModalOnBackdrop(e, id) { if (e.target.id === id) closeStoryModal(); }
+
     const storyOverlay = document.getElementById("storyModalOverlay");
     function updateReadingProgress() {
       const maxScroll = storyOverlay.scrollHeight - storyOverlay.clientHeight;
-      const pct = maxScroll > 0 ? (storyOverlay.scrollTop / maxScroll) * 100 : 0;
-      document.getElementById("readingProgress").style.width = `${Math.min(100, pct)}%`;
+      document.getElementById("readingProgress").style.width = `${Math.min(100, maxScroll > 0 ? (storyOverlay.scrollTop / maxScroll) * 100 : 0)}%`;
     }
     storyOverlay.addEventListener("scroll", updateReadingProgress);
 
-    function openMotionModal(key) {
-      const item = motionCatalog[key] || motionCatalog.qadisiyyah;
-      document.getElementById("motionModalBody").innerHTML = `
-        <div class="motion-stage">
-          <svg viewBox="0 0 400 225" width="100%" height="100%" style="position:absolute; inset:0;">
-            <defs>
-              <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-                <stop offset="0%" stop-color="${item.color}" stop-opacity="0.22"/>
-                <stop offset="100%" stop-color="#0F0D0B" stop-opacity="0"/>
-              </radialGradient>
-            </defs>
-            <rect width="400" height="225" fill="url(#glow)" />
-            <path d="${item.path}" stroke="${item.color}" stroke-width="3.5" fill="none" class="motion-animated-path" stroke-linecap="round" />
-          </svg>
-          <div style="position:relative; z-index:2; max-width:460px;">
-            <span style="display:inline-block; padding:0.25rem 0.75rem; border-radius:999px; background:rgba(197,160,89,0.18); color:#C5A059; font-family:Cairo; font-size:0.75rem; margin-bottom:0.75rem;">
-              ▶ قيد التشغيل — راوي التاريخ موشن
-            </span>
-            <h3 style="font-size:1.55rem; margin-bottom:0.5rem;">${item.title}</h3>
-            <p style="font-size:0.92rem; color:#BEB5A6;">${item.desc}</p>
-          </div>
-        </div>
-      `;
-      document.getElementById("motionModalOverlay").classList.add("open");
-    }
-
-    function closeMotionModal() {
-      document.getElementById("motionModalOverlay").classList.remove("open");
-      document.getElementById("motionModalBody").innerHTML = "";
-    }
-
-    function closeModalOnBackdrop(e, id) {
-      if (e.target.id === id) {
-        if (id === "storyModalOverlay") closeStoryModal();
-        if (id === "motionModalOverlay") closeMotionModal();
-      }
-    }
-
     const revealObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) { entry.target.classList.add("visible"); revealObserver.unobserve(entry.target); }
-      });
-    }, { threshold: 0.14 });
+      entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add("visible"); revealObserver.unobserve(entry.target); } });
+    }, { threshold: 0.12 });
     document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
   </script>
 </body>
